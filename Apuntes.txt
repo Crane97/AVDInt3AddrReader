@@ -1,0 +1,25 @@
+Para el cuerpo: lista con instrucciones.
+
+El cuerpo de la funcion: una lista/una array
+
+Cada elemento de esa lista.
+
+
+
+Programa que tu le das uno de estos programas de test que le das uno de estos programas y te calcula el analisis
+
+No hagas el parser, coger la representacion del programa.
+
+x := x + 1;
+
+{type: assignment, left: x, right: {type:expression, op: add, op1: {type: var, name: x}, op2: {type:int, value: 1}}}
+
+Me da un programa en el lenguaje que me ha puesto en el pdf:
+
+Me devuelve las funciones auxiliares y variables vivas etc etc.
+
+En lugar de dar el programa en texto, que me de la representación interna.
+
+Un programa: una lista de instrucciones.
+
+Sacar el kill y el gen

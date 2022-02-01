@@ -1,0 +1,18 @@
+0	EREAD			,			,	p:	0
+1	EREAD			,			,	p:	1
+2	ESUM 	i:	2 	,	p:	0	,	p:	2
+3	EASIG	p:	2 	, 			,	p:	1
+4	EASIG	p:	0 	, 			,	p:	3
+5	EASIG	i:	10	, 			,	p:	4
+6	EASIG	i:	1 	, 			,	p:	5
+7	EMEN 	p:	3 	,	p:	4	,	e:	9
+8	EASIG	i:	0 	,			,	p:	5
+9	EIGUAL 	p:	5 	,	i:	0	,	e:	15
+10	ESUM  	i:	2 	,	p:	0	,	p:	6
+11	EASIG 	p:	6 	,			,	p:	0
+12	EASIG 	p:	0 	,			,	p:	7
+13	EWRITE 			,			,	p:	7
+14	GOTOS 			,			,	e:	17
+15	EASIG 	p:	1	,			,	p:	8
+16	EWRITE			,			,	p:	9
+17	FIN				,			,
